@@ -683,7 +683,7 @@ if (activityPostForm) {
             });
 
             // Send to backend endpoint for email/SMS
-            fetch('http://localhost:3000/api/send-announcement', {
+            fetch('https://youth-r-and-a.onrender.com/api/send-announcement', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
