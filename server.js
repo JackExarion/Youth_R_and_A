@@ -6,7 +6,7 @@ const nodemailer = require('nodemailer');
 const twilio = require('twilio');
 
 const app = express();
-app.use(cors({ origin: 'https://your-frontend-domain.com' }));
+app.use(cors({ origin: 'https://youth-registration-and-attendance.netlify.app/' }));
 app.use(express.json());
 
 // Configure nodemailer (use your SMTP credentials)
